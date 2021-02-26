@@ -1,4 +1,4 @@
-# Create-react-app with AWS Amplify Auth 
+# Create-react-app with AWS Amplify Auth small 
 
 This auth starter implements withAuthenticator HOC to provide a basic authentication flow for signing up signing in users as well as protected client side routing using AWS Amplify. Auth features: User sign up, User sign in, Multi-factor Authentication, User sign-out.
 
@@ -24,7 +24,7 @@ The Amplify Console will fork this repo in your GitHub account, and then build a
   cd create-react-app-auth-amplify && npm install
   ```
 
-2. Import the backend environment deployed by the Amplify Console to your repo (the `amplify/team-provider.json` file contains information on all backend environments in your AWS account). The GIF below shows how you to copy the `amplify env import` command from the Amplify Console. 
+2. Import the backend environment deployed by the Amplify Console to your repo (the `amplify/team-provider.json` file contains information on all backend environments in your AWS account). The GIF below shows how you to copy the `amplify env import` command from the Amplify Console.
 
 <img src="https://github.com/aws-samples/create-react-app-auth-amplify/blob/master/src/images/import-backend.gif" width="800"/>
 
